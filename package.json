@@ -1,0 +1,31 @@
+{
+    "name": "financial",
+    "version": "1.0.0",
+    "description": "this is api based nodejs app fetch the data from the files and then provide the response in json format",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest --no-cache --watchAll --detectOpenHandles",
+        "lint:fix": "eslint --fix .",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write ."
+    },
+    "author": "hamza",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "eslint-config-prettier": "^9.1.0",
+        "express": "^4.19.1",
+        "nodemon": "^3.1.0",
+        "prettier": "^3.2.5"
+    },
+    "keywords": [],
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "jest": "^29.7.0",
+        "supertest": "^6.3.4"
+    }
+}
